@@ -1,0 +1,205 @@
+@media screen and (max-width:950px){
+
+    .container-1, .container-2, .container-3, .container-4, .container-5, .container-6, .container-footer{
+        width: 100%;
+    }
+/* container-2 menu bar */
+    .container-2{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-bar .nav,  .nav-bar .bar{
+        color: #fff;
+    }
+    .menu{
+        overflow: hidden;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border: 1px solid rgb(206, 206, 206);
+        margin-bottom: 20px;
+        margin-top: -20px;
+        transition: all 5s;
+    }
+    .show{
+        transition: all 5s;
+        display: flex;
+    }
+    .menu li{
+        width: 100%;
+        margin: 0px;
+        padding: 13px 20px;
+        border-bottom: 1px solid rgb(196, 194, 194);
+    }
+
+/* container-3 menu img */
+    .container-3{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .category{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    .slide{
+        width: 100%; 
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;  
+    }
+/* container-6 menu img */
+    .pro-c6{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:765px){
+/* container-4 */
+    .slide-img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .slide-img img{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+/* container-5 */
+    .products{
+        width: 100%;
+    }
+    .product{
+        width: 99.9%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+/* container-6 */
+    .pro-c6{
+        width: 50%;
+        text-align: center;
+    }
+    .pro-c6:nth-of-type(even){
+        border-right: none;
+    }
+    .pro-c6 .image-c6 img{
+        width: 50%;
+        height: 50%;
+    }
+/* container-footer */
+    .contacts{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 40px;
+    }
+    .message, .phone{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .form{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0px 20px;
+    }
+
+    .customer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+    }
+    .costomer-blog{
+        width: 100%;
+        padding: 40px 20px;
+        border-right: none;
+        border-bottom: 1px solid gray;
+    }
+    .hand{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .company{
+        width: 100%;
+        padding: 40px 20px 20px 20px;
+    }
+    .company img{
+        margin-bottom: 20px;
+    }
+    .location{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .loca{
+        margin-bottom: 20px;
+    }
+
+/* second-container */
+    .subscript{
+        padding: 40px 40px;
+    }
+    .title-s{
+        margin-bottom: 20px;
+    }
+    .h1{
+        margin-bottom: 25px;
+    }
+    form input{
+        width: 220px;
+    }
+
+/* footer */
+    .footer{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0px 20px;
+    }
+/* container-1 */
+    .menu-top{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    /* container-5 */
+    .products{
+        width: 50%;
+    }
+    .product{
+        width: 99.9%;
+    }
+}
